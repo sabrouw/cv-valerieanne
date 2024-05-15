@@ -1,0 +1,54 @@
+.projects {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  font-style: italic;
+  font-style: oblique;
+  font-size: large;
+  font-family: "Times New Roman";
+}
+
+.global-projects {
+  flex-basis: calc(45% - 1rem);
+}
+
+.project-name {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  font-style: italic;
+  font-style: oblique;
+  font-size: x-large;
+  font-family: "Times New Roman";
+}
+
+.project-cards {
+  margin-top: 2rem;
+  height: auto;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.langagesOutils {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.stack li img {
+  max-width: 80px;
+}
+
+.stack {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .project-cards {
+    width: calc(100% - 1rem);
+  }
+}
