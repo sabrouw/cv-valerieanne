@@ -6,7 +6,7 @@ import { IoPricetagsOutline } from "react-icons/io5";
 export const routes = [
   {
     title: "Home",
-    link: "/home",
+    link: "/",
     Icon: BiHomeAlt2,
   },
   {
